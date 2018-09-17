@@ -1,0 +1,10 @@
+node.name: my-node
+transport.tcp.port: 8080
+http.port: 8081
+cluster.name: jdaza-dbservices-es-cluster
+network.host: 0.0.0.0
+transport.host: 127.0.0.1
+bootstrap.system_call_filter: false
+bootstrap.memory_lock: false
+node.master: true
+node.data: true
